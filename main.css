@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+.container {
+    margin: 1em 1em;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 290px;
+    height: 330px;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    padding: 15px;
+}
+.title {
+    font-size: 16px;
+    font-family: "Noto Sans";
+    display: inline;
+    font-weight: 700;
+}
+.title span {
+    color: #3ec729;
+}
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+
+}
+.header p {
+    font-family: "Tahoma";
+    font-size: 11px;
+    color: #838383;
+    display: inline;
+    margin-left: auto;
+    cursor: pointer;
+}
+.chart {
+    margin-top: 17px;
+}
+.tabs {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+}
+.tabs p {
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+    width: 50%;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    
+    font-family: "Noto Sans";
+}
+.tabs p:hover {
+    background-color: #ccc;
+}
+.tabs p:nth-child(2) {
+    border-left: none;
+    color: #888888;
+}
+.content {
+    margin-top: 9px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0px;
+}
+.index {
+    font-size: 12px;
+    color: #828282;
+    font-family: "Noto Sans";
+    text-align: left;
+}
+.name {
+    font-size: 12px;
+    color: #222222;
+    font-family: "Noto Sans";
+    font-weight: 600;
+}
+.status {
+    text-align: right;
+}
+.difference {
+    display: inline;
+    font-size: 12px;
+    color: #828282;
+    font-family: "Tahoma";
+}
+.arow-icon{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+}
+.time-footer {
+    margin-top: 10px;
+    font-size: 11px;
+    letter-spacing: 0px;
+    color: #888888;
+    font-family: "Tahoma";
+}
